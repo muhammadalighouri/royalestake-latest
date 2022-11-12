@@ -1,0 +1,42 @@
+@import "./variable.scss";
+@import "./media.scss";
+
+.second__nav {
+  padding: 10px 5px;
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .start {
+      .logo {
+        justify-self: start;
+
+        img {
+          padding: 0px 0;
+          max-width: 70px;
+        }
+      }
+    }
+    .end {
+      button {
+        font-family: "Raleway", Sans-serif;
+        fill: #020710;
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 600 !important;
+        box-shadow: none;
+        font-size: 18px;
+        letter-spacing: -0.009em;
+        white-space: nowrap;
+        line-height: 1;
+        padding: 12px 50px;
+        border-radius: 90px;
+        transition: color 450ms, background 450ms;
+        background: transparent;
+        border: 1px solid #ccc;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

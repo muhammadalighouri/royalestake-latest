@@ -1,0 +1,37 @@
+@import "./variable.scss";
+@import "./media.scss";
+
+.partners {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding: 90px 10px 90px;
+  .heading {
+    h1 {
+      font-size: clamp(6rem, 10vw, 10rem);
+      margin-bottom: 3rem;
+      line-height: 1;
+      display: block;
+      font-weight: 100;
+      text-transform: uppercase;
+      text-shadow: 1px 2px 11px #00000026;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .container {
+    .grid {
+      display: flex;
+      gap: 100px;
+      margin-right: 40px;
+      padding: 40px 0;
+      img:nth-child(even) {
+        background: #141b22;
+        padding: 20px;
+      }
+      img{
+        object-fit: contain;
+      }
+    }
+  }
+}

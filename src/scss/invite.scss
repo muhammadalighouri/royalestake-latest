@@ -1,0 +1,90 @@
+@import "./variable.scss";
+@import "./media.scss";
+
+.invite {
+    padding: 90px 10px;
+
+    .heading {
+        margin-bottom: 40px;
+
+        h1 {
+            font-size: 4rem !important;
+            display: inline-block;
+            overflow: visible;
+            color: #fff;
+            font-weight: 600;
+            line-height: 1.2em;
+            letter-spacing: 0px;
+            text-align: center;
+            width: 60%;
+            margin: auto;
+        }
+
+        h5 {
+            text-align: center;
+            color: #2cbca5;
+            font-family: "Inter", Sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1;
+            letter-spacing: 1px;
+        }
+
+        p {
+            text-align: center;
+            color: #848296;
+            font-family: "DM Sans", Sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.4;
+            width: 50%;
+            margin: 10px auto;
+        }
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        .item {
+            background: #04182f;
+            border-radius: 20px;
+            padding: 40px 40px 40px 40px;
+            h2{
+                padding: 10px 13px;
+            }
+            .input {
+                    padding: 10px;
+                    display: flex;
+                    gap: 15px;
+            
+                    input {
+                        background: #344252;
+                        border: 0;
+                        outline: none;
+                        padding: 15px 10px;
+                        border-radius: 12px;
+                        width: 80%;
+                    }
+            
+                    button {
+                        font-family: "Raleway", Sans-serif;
+                        font-size: 20px;
+                        font-weight: 700;
+                        letter-spacing: 0.5px;
+                        fill: #FFFFFF;
+                        color: #FFFFFF;
+                        background-color: transparent;
+                        background: #6366ff;
+                        border-style: solid;
+                        border-width: 0px 0px 0px 0px;
+                        border-color: #6366FF61;
+                        border-radius: 10px 10px 10px 10px;
+                        box-shadow: 0px 10px 20px 0px rgba(53.99999999999996, 186.99999999999997, 144.99999999999994, 0.19);
+                        padding: 17px 40px 17px 40px;
+                        cursor: pointer;
+                    }
+                }
+        }
+    }
+}

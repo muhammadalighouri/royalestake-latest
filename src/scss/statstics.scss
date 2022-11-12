@@ -1,0 +1,71 @@
+@import "./variable.scss";
+@import "./media.scss";
+
+.statistics {
+    padding: 90px 10px;
+
+    .heading {
+        margin-bottom: 40px;
+
+        h1 {
+            font-size: 4rem !important;
+            display: inline-block;
+            overflow: visible;
+            color: #fff;
+            font-weight: 600;
+            line-height: 1.2em;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        h5 {
+            text-align: center;
+            color: #2cbca5;
+            font-family: "Inter", Sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1;
+            letter-spacing: 1px;
+        }
+
+        p {
+            text-align: center;
+            color: #848296;
+            font-family: "DM Sans", Sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.4;
+            width: 50%;
+            margin: 10px auto;
+        }
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+
+        .item {
+            background: #04182f;
+            border-radius: 20px;
+            padding: 40px 40px 40px 40px;
+            .flex {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+            
+                    span {
+                        &:nth-child(1) {
+                            font-family: "Raleway";
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+            
+                        &:nth-child(2) {
+                            font-size: 18px;
+                        }
+                    }
+                }
+        }
+    }
+}
