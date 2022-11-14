@@ -49,6 +49,9 @@
       line-height: 1.2em;
       letter-spacing: 0px;
       text-align: center;
+      @include md{
+        font-size: 3.5rem !important;
+      }
     }
 
     h5 {
@@ -71,6 +74,9 @@
       line-height: 1.4;
       width: 50%;
       margin: 10px auto;
+      @include md{
+        width: 100%;
+      }
     }
   }
 
@@ -80,13 +86,13 @@
     padding: 0 10px;
 
     .team__grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 1rem 1rem;
-      justify-content: center;
-      // > div:nth-child(even) {
-      //   margin-top: 60px;
-      // }
+        display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+          grid-gap: 1rem 1rem;
+          justify-content: center;
+          @include md{
+            grid-gap: 2rem 2rem;
+          }
       .item {
         position: relative;
         margin: 0 auto;

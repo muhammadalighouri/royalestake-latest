@@ -26,23 +26,39 @@ footer {
     .top__footer {
       padding: 30px 0 50px;
       .grid {
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
+      display: grid;
+        grid-template-columns: 1.5fr 1fr 1.5fr;
+        grid-gap: 2rem;
+        @include md{
+         grid-template-columns: 1fr;
+        }
         .item {
           h2 {
             text-transform: uppercase;
-            margin-bottom: 5px;
-            font-size: 2.5rem;
-            color: #fff;
-            display: flex;
-            align-items: center;
+              margin-bottom: 5px;
+              font-size: 1.5rem;
+              color: #fff;
+              display: flex;
+              align-items: center;
+              font-family: 'Inter';
+            @include md{
+              
+                opacity: .8;
+             
+            }
+          }
+          p{
+            opacity: 1;
           }
           .email {
             position: relative;
             min-width: 400px;
             overflow: hidden;
             border-radius: 10px;
+            @include md{
+              min-width: 350px;
+              width: 100%;
+            }
             input {
               width: 100%;
               padding: 15px 46px 15px 23px;
@@ -67,7 +83,7 @@ footer {
             position: absolute;
             padding: 0 30px;
             background: linear-gradient(90deg, #e5941f 0%, #d87006 100%);
-            background: #36BB91;
+            background: linear-gradient(160deg, #017bfd 0%, #20bfe1 100%);
             color: #fff;
             border: 0;
             text-transform: capitalize;
@@ -90,9 +106,15 @@ footer {
       display: -webkit-flex;
       align-items: center;
       justify-content: space-between;
+      @include md{
+        justify-content: space-between;
+          flex-direction: column-reverse;
+          opacity: .7;  
+      }
       p {
-        font-size: 16px;
+        font-size: 15px;
         text-transform: capitalize;
+        opacity: .8;
       }
       ul {
         display: flex;
@@ -100,10 +122,15 @@ footer {
         gap: 2rem;
         list-style: none;
 
+
+
+        @include md{
+          flex-wrap: wrap;
+        }
         > li {
           position: relative;
           transition: 0.3s all;
-          font-size: 18px;
+          font-size: 15px;
           transition: 0.1s all;
           position: relative;
 

@@ -1,5 +1,5 @@
-import React from 'react'
-import "../../scss/invite.scss"
+import React from "react";
+import "../../scss/invite.scss";
 const Invite = () => {
     return (
         <>
@@ -7,20 +7,19 @@ const Invite = () => {
                 <div className="heading">
                     <h1>Invite Your Friends and Earn Together</h1>
                     <p>Earn a 1% commission of the BNB Staked for your friends</p>
-
                 </div>
                 <div className="container">
                     <div className="item">
                         <h2>My Referral Link</h2>
                         <div className="input">
-                            <input type="text" />
+                            <input placeholder="Copy referel link" type="text" />
                             <button>Copy</button>
                         </div>
                     </div>
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
-export default Invite
+export default Invite;

@@ -4,39 +4,50 @@ import "../scss/info.scss";
 const Info = () => {
     const info = [
         {
-            name: "Free",
+            name: "Trial",
             desc: "Customize your uniquely owned Starships with PAINT, TRAIL, and OPTICS available in the market",
             price: "$100",
             img: "/images/icon/4.png",
             ul: [
-                'Take your finished mobile',
-                'Take your finished mobile',
-                'Take your finished mobile',
-                'Take your finished mobile',
+
+                '1% Daily ROI',
+                'Minimum deposit  ',
+                'Currency BNB ',
+
             ]
         },
         {
-            name: "Starter",
+            name: "Standard ",
             desc: "Take your finished mobile fighter jet to battle in different map & game modes. Conquer the galaxy.",
-            price: "$100",
+            price: "$1,000",
             img: "/images/icon/5.png",
             ul: [
-                'Take your finished mobile',
-                'Take your finished mobile',
-                'Take your finished mobile',
-                'Take your finished mobile',
+                '1.2% Daily ROI',
+                'Minimum deposit  ',
+                'Currency BNB',
+
             ]
         },
         {
-            name: "Premium",
+            name: "Medium",
             desc: "Destroy and take your side to victory.",
             price: "$100",
             img: "/images/icon/6.png",
             ul: [
-                'Take your finished mobile',
-                'Take your finished mobile',
-                'Take your finished mobile',
-                'Take your finished mobile',
+                '1.4% Daily ROI',
+                'Minimum deposit  ',
+                'Currency BNB',
+            ]
+        },
+        {
+            name: "Premium ",
+            desc: "Destroy and take your side to victory.",
+            price: "$1000",
+            img: "/images/icon/6.png",
+            ul: [
+                '1.5% Daily ROI',
+                'Minimum deposit  ',
+                'Currency BNB',
             ]
         },
 

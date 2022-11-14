@@ -7,11 +7,10 @@ const Start = () => {
                 <div className="grid">
                     <div className="item">
                         <div className="start">
-                            <h2> Want to start investing in crypto now?</h2>
+                            <h2>Let’s start your crypto staking now</h2>
                             <p>
                                 {" "}
-                                Connect our AI to your exchange account and invest crypto
-                                automatically.
+                                Try our auto staking tool for free.
                             </p>
                         </div>
                         <div className="end">

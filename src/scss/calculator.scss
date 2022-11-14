@@ -2,11 +2,14 @@
 @import "./media.scss";
 
 .calculator {
-  padding: 90px 10px;
-position: relative;
-
+   
+      border-radius: 20px;
+      padding: 40px 30px;
+@include md{
+  padding: 40px 10px;
+}
   .heading {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
     h1 {
       font-size: 4rem !important;
@@ -35,7 +38,7 @@ position: relative;
       color: #848296;
       font-family: "DM Sans", Sans-serif;
       font-size: 18px;
-      font-weight: 400;
+      font-weight: 100;
       line-height: 1.4;
       width: 50%;
       margin: 10px auto;
@@ -47,9 +50,12 @@ position: relative;
     margin: auto;
 
     .item {
-      background: #04182f;
+      background: #14253b;
       border-radius: 20px;
       padding: 40px 30px;
+      @include md{
+        padding: 40px 15px;
+      }
       .flex {
         display: grid;
         grid-template-columns: 1fr auto;
@@ -71,49 +77,53 @@ position: relative;
           }
         }
       }
-      p{
-            font-size: 20px;
-                padding: 10px;
-                font-weight: 500;
+      p {
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 500;
       }
-      .btn__grid{
-    display: grid;
+      .btn__grid {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2rem 2rem;
         align-items: center;
         justify-content: center;
-        .start,.end{
-            h3{
-                padding: 10px;
+        @include md{
+          grid-template-columns: 1fr;
+        }
+        .start,
+        .end {
+          h3 {
+            padding: 10px;
+          }
+          ul {
+            display: flex;
+            list-style: none;
+            gap: 8px;
+            background: #344252;
+            padding: 8px 12px;
+            justify-content: center;
+            border-radius: 33px;
+            li {
+              width: -webkit-fill-available;
+              text-align: center;
+              padding: 8px 0;
+              border-radius: 30px;
+              cursor: pointer;
+              // &:nth-child(1){
+              //         background: #6366FF;
+              // }
             }
-            ul{
-                    display: flex;
-                        list-style: none;
-                        gap: 8px;
-                        background: #344252;
-                        padding: 8px 12px;
-                        justify-content: center;
-                        border-radius: 33px;
-                        li{
-                    width: -webkit-fill-available;
-                        text-align: center;
-                        padding: 8px 0;
-                        border-radius: 30px;
-                        cursor: pointer;
-                        &:nth-child(1){
-                                background: #6366FF;
-                        }
-                        }
-            }
+          }
         }
       }
-      .input{
-            display: flex;
-                justify-content: space-between;
-                padding: 15px 15px;
-                background: #344252;
-                margin-top: 15px;
-                border-radius: 30px;
+      .input {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 15px;
+        background: #344252;
+        margin-top: 15px;
+        border-radius: 30px;
       }
     }
   }

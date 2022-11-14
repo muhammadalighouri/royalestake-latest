@@ -52,84 +52,10 @@ const Teams = () => {
   window.addEventListener("resize", () => {
     // sliderResponsive();
   });
-  const teamModal = (item) => {
-    setPresentTeam(item);
-    setshow(true);
-  };
+
   return (
     <>
       <section id="team" className="team">
-        <div
-          className="present__team"
-          style={{
-            position: "fixed",
-            top: "0px",
-            left: "0px",
-            width: "100%",
-            height: "100%",
-            background: "rgba(0, 0, 0, 0.83)",
-            zIndex: "10000",
-            display: show ? "grid" : "none",
-            placeContent: "center",
-            placeItems: "center",
-          }}
-          onClick={() => setshow(false)}
-        >
-          <div
-            className="item"
-            style={{
-              maxWidth: "550px",
-              background: "rgb(20, 27, 34)",
-              padding: "50px 25px",
-              textAlign: "center",
-              margin: "0px 10px",
-              boxShadow: "rgba(0, 0, 0, 0.19) 0px 0px 10px",
-            }}
-          >
-            <div>
-              {" "}
-              <h3
-                className="name"
-                style={{
-                  fontWeight: "500",
-                  textTransform: "capitalize",
-                  fontSize: "2.2rem",
-                  textAlign: "start",
-                  fontFamily: "'relative'",
-                  marginBottom: "7px",
-                  marginRight: "12px",
-                }}
-              >
-                {presentTeam?.name}
-              </h3>
-              <h4
-                style={{
-                  textTransform: "capitalize",
-                  marginTop: "5px",
-                  textAlign: "start",
-                  fontSize: "18px",
-                  fontFamily: "'outfit-medium'",
-                  fontWeight: "600",
-                  opacity: ".5",
-                }}
-              >
-                {presentTeam?.position}
-              </h4>
-              <p
-                style={{
-                  fontSize: "18px",
-                  marginTop: "10px",
-                  textAlign: "start",
-                  lineHeight: "1.3",
-                  fontFamily: "'outfit-medium'",
-                  fontWeight: "100",
-                }}
-              >
-                {presentTeam?.desc}
-              </p>
-            </div>
-          </div>
-        </div>
         <div className="container">
           <div data-aos="fade" className="heading aos-init aos-animate">
             <h5>THE TEAM</h5>
@@ -151,7 +77,6 @@ const Teams = () => {
                     data-aos="fade-up"
                     data-aos-delay={150 * ind}
                     data-aos-easing="ease-out"
-                    onClick={() => teamModal(ite)}
                   >
                     <div className="inner">
                       <div className="img">

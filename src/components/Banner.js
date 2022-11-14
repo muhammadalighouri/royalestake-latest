@@ -44,9 +44,9 @@ const Banner = () => {
               <h3>AI CRYPTO INVESTMENT APP</h3>
               <h1>Invest without any doubt with Royal Stake app
               </h1>
-              <p>
+              {/* <p>
                 Developing in the 4th SECTOR TO generate resources for social
-              </p>
+              </p> */}
               <div className="btn__container">
                 <button
                   className="first"

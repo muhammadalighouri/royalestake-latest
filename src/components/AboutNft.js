@@ -57,11 +57,11 @@ const AboutNft = () => {
                       </div>
                       <div className="details">
                         <h3>{item.name}</h3>
-                        <p>
+                        {/* <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit. Ut elit tellus, luctus nec ullamcorper mattis,
                           pulvinar dapibus leo.
-                        </p>
+                        </p> */}
                       </div>
                     </li>
                   );

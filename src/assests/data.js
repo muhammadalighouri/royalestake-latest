@@ -3,23 +3,20 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaRedditAlien } from "react-icons/fa";
 export const nav = [
-  {
-    name: "Mission",
-    path: "#about",
-  },
+  // {
+  //   name: "Mission",
+  //   path: "#about",
+  // },
 
-  {
-    name: "Roadmap",
-    path: "#roadmap",
-  },
-  {
-    name: "NFTs",
-    path: "#info",
-  },
-  {
-    name: "Whitepaper",
-    path: "#info",
-  },
+  // {
+  //   name: "Roadmap",
+  //   path: "#roadmap",
+  // },
+  // {
+  //   name: "NFTs",
+  //   path: "#info",
+  // },
+
   {
     name: "FAQs",
     path: "#faq",
@@ -215,10 +212,12 @@ export const Nfts_2 = [
 export const Partners_1 = [
   "/images/partners/partner-1.png",
   "/images/partners/partner-2.png",
-  "/images/partners/partner-3.png",
+
   "/images/partners/partner-4.png",
-  "/images/partners/partner-5.png",
-  "/images/partners/partner-6.png",
+
+  "/images/partners/partner-13.png",
+
+
 ];
 export const Partners_2 = [
   "/images/partners/partner-7.png",

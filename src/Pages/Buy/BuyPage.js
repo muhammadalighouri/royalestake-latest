@@ -17,11 +17,11 @@ const BuyPage = () => {
 
             <Info />
             <div className="back">
-                <Statistics />
+
                 <Invite />
 
             </div>
-            <Calculator />
+            {/* <Calculator /> */}
             <Footer />
         </>
     );

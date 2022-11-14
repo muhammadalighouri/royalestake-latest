@@ -8,6 +8,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     .start {
       .logo {
         justify-self: start;
@@ -30,12 +31,17 @@
         letter-spacing: -0.009em;
         white-space: nowrap;
         line-height: 1;
-        padding: 12px 50px;
+        padding: 14px 40px;
         border-radius: 90px;
         transition: color 450ms, background 450ms;
-        background: transparent;
-        border: 1px solid #ccc;
+        background: linear-gradient(
+          160deg,
+          #017bfd 0%,
+          #20bfe1 100%
+        ) !important;
+        border: 0;
         text-transform: capitalize;
+        cursor: pointer;
       }
     }
   }

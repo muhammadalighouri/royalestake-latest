@@ -1,6 +1,8 @@
-import React from "react";
-import "../../scss/calculator.scss"
+import React, { useState } from "react";
+import "../../scss/calculator.scss";
 const Calculator = () => {
+    const [handleAmount, setHandleAmount] = useState();
+    const [handleTime, setHandleTime] = useState();
     const amount = [
         {
             value: "1K",
@@ -38,9 +40,9 @@ const Calculator = () => {
 
     const spaninsh = (e, value) => {
         if (e.target.value == value) {
-            console.log('yes');
+            console.log("yes");
         }
-    }
+    };
     return (
         <section className="calculator">
             <div className="heading">
@@ -61,7 +63,17 @@ const Calculator = () => {
                             <h3>Amount</h3>
                             <ul>
                                 {amount.map((item, index) => {
-                                    return <li onClick={(e) => spaninsh(e, item.value)}>{item.value}</li>;
+                                    return (
+                                        <li
+                                            style={
+                                                handleAmount === item.value ? { background: "#6366FF" } : {}
+                                            }
+                                            onClick={() => setHandleAmount(item.value)}
+                                            key={index}
+                                        >
+                                            {item.value}
+                                        </li>
+                                    );
                                 })}
                             </ul>
                         </div>
@@ -69,7 +81,13 @@ const Calculator = () => {
                             <h3>Time for</h3>
                             <ul>
                                 {time.map((item, index) => {
-                                    return <li>{item.value}</li>;
+                                    return <li
+                                        style={
+                                            handleAmount === item.value ? { background: "#6366FF" } : {}
+                                        }
+                                        onClick={() => setHandleAmount(item.value)}
+                                        key={index}
+                                    >{item.value}</li>;
                                 })}
                             </ul>
                         </div>
@@ -90,7 +108,6 @@ const Calculator = () => {
                     </div>
                 </div>
             </div>
-
         </section>
     );
 };

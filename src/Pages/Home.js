@@ -25,9 +25,10 @@ const Home = () => {
                 <AboutNft />
             </div>
             <Holder />
-            <Teams />
+            {/* <Teams /> */}
             <Rating />
             <Start />
+            <Partners />
             <Faq />
             <Footer />
             {/* </div> */}

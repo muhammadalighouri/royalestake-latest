@@ -4,29 +4,38 @@
 .dashboard {
   padding: 90px 10px;
   position: relative;
+  button {
+    background: linear-gradient(160deg, #017bfd 0%, #20bfe1 100%) !important;
+  }
   &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: url(../../public/images/ijoefk.png) no-repeat bottom right;
-      background-size: 250px;
-      z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../public/images/ijoefk.png) no-repeat bottom right;
+    background-size: 250px;
+    z-index: -1;
+    @include md {
+      background-size: 100px;
     }
-  
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: url(../../public/images/fep.png) no-repeat top left;
-      background-size: 250px;
-      z-index: -1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../public/images/fep.png) no-repeat top left;
+    background-size: 250px;
+    z-index: -1;
+    @include md {
+      background-size: 100px;
     }
+  }
   .heading {
     margin-bottom: 40px;
 
@@ -69,9 +78,12 @@
     margin: auto;
 
     .item {
-      background: #04182f;
+      background: #14253b;
       border-radius: 20px;
       padding: 40px 40px 40px 40px;
+      @include md {
+        padding: 40px 20px;
+      }
       .flex {
         display: flex;
         justify-content: space-between;
@@ -79,8 +91,9 @@
         span {
           &:nth-child(1) {
             font-family: "Raleway";
-            font-size: 20px;
+            font-size: 17px;
             font-weight: 600;
+            opacity: 0.8;
           }
           &:nth-child(2) {
             font-size: 18px;
@@ -91,54 +104,135 @@
         padding: 10px;
         display: flex;
         gap: 15px;
+        @include md {
+          display: grid;
+        }
         input {
           background: #344252;
           border: 0;
           outline: none;
-          padding: 15px 10px;
+          padding: 15px 14px;
           border-radius: 12px;
           width: 80%;
+
+          @include md {
+            width: 100%;
+            padding: 20px 18px;
+          }
         }
-        button{
-                font-family: "Raleway", Sans-serif;
-                    font-size: 20px;
-                    font-weight: 700;
-                    letter-spacing: 0.5px;
-                    fill: #FFFFFF;
-                    color: #FFFFFF;
-                    background-color: transparent;
-                    background: #6366ff;
-                    border-style: solid;
-                    border-width: 0px 0px 0px 0px;
-                    border-color: #6366FF61;
-                    border-radius: 10px 10px 10px 10px;
-                    box-shadow: 0px 10px 20px 0px rgba(53.99999999999996, 186.99999999999997, 144.99999999999994, 0.19);
-                    padding: 17px 40px 17px 40px;
-                    cursor: pointer;
+        button {
+          font-family: "Raleway", Sans-serif;
+          font-size: 20px;
+          font-weight: 700;
+          letter-spacing: 0.5px;
+          fill: #ffffff;
+          color: #ffffff;
+          background-color: transparent;
+          background: #6366ff;
+          border-style: solid;
+          border-width: 0px 0px 0px 0px;
+          border-color: #6366ff61;
+          border-radius: 10px 10px 10px 10px;
+          box-shadow: 0px 10px 20px 0px
+            rgba(
+              53.99999999999996,
+              186.99999999999997,
+              144.99999999999994,
+              0.19
+            );
+          padding: 15px 40px 15px 40px;
+          cursor: pointer;
         }
       }
-      .btn__grid{
+      .income {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 2rem;
+        grid-gap: 1rem;
         padding: 10px;
-            button {
-                    font-family: "Raleway", Sans-serif;
-                    font-size: 20px;
-                    font-weight: 700;
-                    letter-spacing: 0.5px;
-                    fill: #FFFFFF;
-                    color: #FFFFFF;
-                    background-color: transparent;
-                    background: #6366ff;
-                    border-style: solid;
-                    border-width: 0px 0px 0px 0px;
-                    border-color: #6366FF61;
-                    border-radius: 10px 10px 10px 10px;
-                    box-shadow: 0px 10px 20px 0px rgba(53.99999999999996, 186.99999999999997, 144.99999999999994, 0.19);
-                    padding: 17px 40px 17px 40px;
-                    cursor: pointer;
-                }
+        .input {
+          display: flex;
+          justify-content: space-between;
+          padding: 15px 11px;
+          background: #344252;
+          border-radius: 7px;
+          span {
+            &:nth-child(1) {
+              opacity: 0.8;
+            }
+          }
+        }
+      }
+      .btn__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        padding: 10px;
+        @include md {
+          grid-template-columns: 1fr;
+          grid-gap: 1rem;
+        }
+        button {
+          font-family: "Raleway", Sans-serif;
+          font-size: 20px;
+          font-weight: 700;
+          letter-spacing: 0.5px;
+          fill: #ffffff;
+          color: #ffffff;
+          background-color: transparent;
+          background: #6366ff;
+          border-style: solid;
+          border-width: 0px 0px 0px 0px;
+          border-color: #6366ff61;
+          border-radius: 10px 10px 10px 10px;
+          box-shadow: 0px 10px 20px 0px
+            rgba(
+              53.99999999999996,
+              186.99999999999997,
+              144.99999999999994,
+              0.19
+            );
+          padding: 15px 40px 15px 40px;
+          cursor: pointer;
+        }
+      }
+      .btn___grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0rem;
+        align-items: center;
+        justify-content: center;
+
+        @include md {
+          grid-template-columns: 1fr;
+        }
+
+        .start,
+        .end {
+          h3 {
+            padding: 10px;
+          }
+
+          ul {
+            display: flex;
+            list-style: none;
+            gap: 8px;
+            background: #344252;
+            padding: 8px 15px;
+            justify-content: center;
+            border-radius: 7px;
+            margin: 10px;
+            li {
+              width: -webkit-fill-available;
+              text-align: center;
+              padding: 8px 0;
+              border-radius: 8px;
+              cursor: pointer;
+              // &:nth-child(1){
+              //         background: #6366FF;
+              // }
+            }
+          }
+        }
       }
     }
   }

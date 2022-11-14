@@ -46,14 +46,14 @@ const Rating = () => {
                 <div className="container">
                     <div className="grid">
                         <div className="start">
-                            <h5>WHY ROYAL STAKE </h5>
+                            <h5>TESTIMONIAL </h5>
                             <h1 data-aos="fade" className="aos-init aos-animate">
-                                Automatic AI-Based Crypto Investing App
+                                Trusted by over 300K users around the world
                             </h1>
-                            <p data-aos="fade" className="aos-init aos-animate">
+                            {/* <p data-aos="fade" className="aos-init aos-animate">
                                 Save Time and Diversify Your Portfolio, Royal Stake App Work
                                 While You Just Live.
-                            </p>
+                            </p> */}
                         </div>
                         <div className="end">
                             <img src="/images/ertbg-1024x957.png" alt="" />

@@ -35,7 +35,7 @@ header {
         }
 
         @include lg {
-          padding: 0px 10px;
+          padding: 10px 10px;
         }
 
         .logo {
@@ -43,7 +43,7 @@ header {
 
           img {
             padding: 0px 0;
-            max-width: 50px;
+            max-width: 80px;
           }
         }
 
@@ -178,22 +178,22 @@ header {
           a:nth-child(5) {
             margin-left: 10px;
             .btn {
-              font-family: "Raleway", Sans-serif;
-                fill: #020710;
-                color: #fff;
-                text-transform: capitalize;
-                font-weight: 600 !important;
-                box-shadow: none;
-                font-size: 18px;
-                letter-spacing: -0.009em;
-                white-space: nowrap;
-                line-height: 1;
-                padding: 12px 50px;
-                border-radius: 90px;
-                transition: color 450ms, background 450ms;
-                background: transparent;
-                border: 1px solid #ccc;
-                text-transform: capitalize;
+    font-family: "Raleway", Sans-serif;
+      fill: #020710;
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600 !important;
+      box-shadow: none;
+      font-size: 18px;
+      letter-spacing: -0.009em;
+      white-space: nowrap;
+      line-height: 1;
+      padding: 12px 50px;
+      border-radius: 90px;
+      transition: color 450ms, background 450ms;
+      background: linear-gradient(160deg, #017bfd 0%, #20bfe1 100%);
+      border: 0;
+      text-transform: capitalize;
               @include md {
                 padding: 12px 20px;
                 font-size: 16px;
@@ -327,10 +327,10 @@ header {
 }
 
 .nav__active {
-    top: 0px;
-      background: rgba(0, 0, 0, 0.25);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.045);
-      backdrop-filter: blur(5px);
+  top: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.045);
+  backdrop-filter: blur(5px);
 }
 
 .auto_scroll {
@@ -379,17 +379,16 @@ header {
       }
 
       nav {
-        position: absolute;
-        top: 0;
-
-        width: 100%;
-        z-index: 100;
-        height: 100vh;
-        right: -100%;
-        overflow: hidden;
-        justify-content: center !important;
-        background: #200504;
-        transition: all 400ms ease 0s;
+          position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+            height: 100vh;
+            right: -100%;
+            overflow: hidden;
+            justify-content: center !important;
+            background: #021327;
+            transition: all 400ms ease 0s;
 
         ul {
           flex-direction: column;
@@ -417,7 +416,7 @@ header {
           transform: none;
           right: 3.5%;
           z-index: 1111;
-          top: 23%;
+          top: 17%;
 
           > span {
             &:nth-child(1) {
