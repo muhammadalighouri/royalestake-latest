@@ -82,31 +82,37 @@ export const roadmap = [
 
 export const FAQ = [
   {
-    q: "What is an NFT?  ",
+    q: "What is Royal Stake? ",
     ans: [
-      'An NFT stands for non-fungible token and is a digital asset that be created, staked, and traded on the blockchain. The term "non-fungible" more or less means that it is unique and cannot be replace with anything else.',
+      'Royal Stake is a decentralized algorithmic trading protocol secured by the Binance  blockchain. Our protocol allows users to benefit from algorithmic trading without the hassle of making your own bots or using a sketchy third-party API linked to your identity on a centralized exchange. ',
+      'Royal Stake is a low-risk algorithmic trading solution that generates profits for BNB holders on a daily basis. The profits of BNB trades - averaging 1% per day - are distributed to BNB holders automatically. This simplifies the user experience and makes the power of AI trading accessible to everybody. Taking part is easy: just buy BNB and stake it in your wallet to earn up to 1% daily. Royal Stake is built by the defi community for the defi community. No venture capitalists (bullies) were involved in the making of this venture.',
     ],
   },
   {
-    q: "What is the blockchain?  ",
+    q: "How does it work?  ",
     ans: [
-      "A blockchain is a database or ledger that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format allowing safe digital transactions without the need for third parties..",
+      "Royal Stake provides secure, long-term passive income for BNB holders. It does this by generating revenue from the profitable trades of algorithmic trading bots.",
     ],
   },
 
   {
-    q: "How do I purchase a Universa Immersion NFT?   ",
+    q: "How to buy BNB? ",
     ans: [
-      "A1. Go to www.opensea.com ",
-      "2. Choose a digital wallet from the selection",
-      "3. Purchase Ethereum or transfer from an existing wallet",
-      "4. Click to purchase the NFT that you want and it will be stored in your digital wallet! ",
+      "Have your MetaMask wallet ready and funded with BNB smart chain on the Binance network. [Link]. Remember, it’s a good habit to keep 5$-10$ worth of BNB in your wallet to cover gas fees. ",
+      "In MetaMask, change your network to smart chain (BNB). The easiest way to do this is to visit https://bscscan.com/, scroll to the bottom of the page and click the button that says “Add BSC Network”.",
+
     ],
   },
   {
-    q: "What does Universal Immersion do?",
+    q: "How much will I earn?",
     ans: [
-      "We develop in the 4th Sector, to generate resources to invest into social impact projects. Our first mission, Operation Quadrant, has four quadrants: Theta, Alpha, Beta, Gamma. In Alpha Quadrant, a UI funding pool and its processes will be developed.Individuals, businesses and organizations seeking funding for social impact projects can apply. Our initial funding priorities are for youth, community, health and technology projects. See '6.Business Strategies' in our Whitepaper, available on our website, for more details.",
+      "You will earn up to 1% daily returns on any amount of BNB coin that you hold in your wallet. This happens 100% automatically - just sit back and watch your balance grow! You can withdraw your rewards at any time. No staking. No lockup. No fees. Easy!",
+    ],
+  },
+  {
+    q: "Fees",
+    ans: [
+      "(There aren't any) It’s that simple, we don’t need fees or bogus referral schemes to make a product that works. We trust in our results to grow. Royal Stake is fair, organic and driven to achieve good things for our community.",
     ],
   },
 ];
