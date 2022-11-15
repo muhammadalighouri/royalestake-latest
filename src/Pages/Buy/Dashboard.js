@@ -5,6 +5,9 @@ const Dashboard = () => {
     const [handleTime, setHandleTime] = useState();
     const amount = [
         {
+            value: "100",
+        },
+        {
             value: "1K",
         },
         {
@@ -13,12 +16,7 @@ const Dashboard = () => {
         {
             value: "10K",
         },
-        {
-            value: "100K",
-        },
-        {
-            value: "250K",
-        },
+
     ];
     const time = [
         {
@@ -31,17 +29,16 @@ const Dashboard = () => {
             value: "9M",
         },
         {
-            value: "1Y",
+            value: "12M",
         },
-        {
-            value: "2Y",
-        },
+
+
     ];
     return (
         <>
             <section className="dashboard">
                 <div className="heading">
-                    <h5>ABOUT TECHNOLOGY</h5>
+                    {/* <h5>ABOUT TECHNOLOGY</h5> */}
                     <h1>Dashboard</h1>
                 </div>
                 <div className="container">

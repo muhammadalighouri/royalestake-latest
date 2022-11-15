@@ -31,7 +31,7 @@ const Info = () => {
         {
             name: "Medium",
             desc: "Destroy and take your side to victory.",
-            price: "$100",
+            price: "$5,000",
             img: "/images/icon/6.png",
             ul: [
                 '1.4% Daily ROI',
@@ -42,8 +42,8 @@ const Info = () => {
         {
             name: "Premium ",
             desc: "Destroy and take your side to victory.",
-            price: "$1000",
-            img: "/images/icon/6.png",
+            price: "$10,000",
+            img: "/images/gem.png",
             ul: [
                 '1.5% Daily ROI',
                 'Minimum deposit  ',
@@ -57,11 +57,9 @@ const Info = () => {
             <div data-aos="fade" className="heading aos-init aos-animate">
                 {/* <h5>Lorem ipsum dolor sit amet.</h5> */}
                 <h1 data-aos="fade" className="aos-init aos-animate">
-                    Pricing
+                    Choose The Right Plan For Your Needs
                 </h1>
-                <p data-aos="fade" className="aos-init aos-animate">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, deleniti?
-                </p>
+
             </div>
             <div className="container">
                 <div className="grid">

@@ -10,6 +10,7 @@ import { Pagination } from "swiper";
 import { Nfts } from "../assests/data";
 import { useNavigate } from "react-router-dom";
 import Hover from "react-3d-hover";
+import Background from "./Background";
 const Banner = () => {
   const navigate = useNavigate();
   const data = [
@@ -32,6 +33,7 @@ const Banner = () => {
   ];
   return (
     <>
+
       <section className="banner">
         {/* <div className="animation__wrap bounce">
           <img src="/images/hero-shape-4.png" className="moveVertical" alt="" />
@@ -52,7 +54,7 @@ const Banner = () => {
                   className="first"
                   onClick={() => navigate('/buy')}
                 >
-                  Start Now!
+                  Start Now
                 </button>
                 {/* <button
                   className="second"

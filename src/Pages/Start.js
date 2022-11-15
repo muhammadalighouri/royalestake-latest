@@ -14,7 +14,7 @@ const Start = () => {
                             </p>
                         </div>
                         <div className="end">
-                            <button>Start Now!</button>
+                            <button>Start Now</button>
                         </div>
                     </div>
                 </div>

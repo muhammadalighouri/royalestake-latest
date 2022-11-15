@@ -14,18 +14,21 @@ const AboutNft = () => {
 
   const steps = [
     {
-      name: "AI technology",
-      details: "",
+      name: "AI Trading Bot",
+      span: "AI Technology",
+      details: "Royal Stake is an AI trading bot that will generate revenue for BNB holders. Royal Stake earns about 1% - 1.5% per day, just by trading the BNB coin.",
       img: "https://toka.b-cdn.net/wp-content/uploads/2022/04/artificial-intelligence.png",
     },
     {
-      name: "Trusted And Secure",
-      details: "",
+      name: "Zero Fees",
+      span: "Secure And Zero Fees",
+      details: "We believe that passive income is for everyone. You shouldn't have to pay crazy high fees. Royal Stake is 100% free to use. You're welcome!",
       img: "https://toka.b-cdn.net/wp-content/uploads/2022/04/grvg.png",
     },
     {
-      name: "Works Automatically",
-      details: "",
+      name: "Daily Income",
+      span: "Works Automatically",
+      details: "Holding and staking BNB is the best way to earn passive income from AI bot trading.Earn daily compound interest simply by staking BNB in your wallet.",
       img: "https://toka.b-cdn.net/wp-content/uploads/2022/04/gvgr.png",
     },
   ];
@@ -56,12 +59,11 @@ const AboutNft = () => {
                         <img src={item.img} alt="" />
                       </div>
                       <div className="details">
-                        <h3>{item.name}</h3>
-                        {/* <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Ut elit tellus, luctus nec ullamcorper mattis,
-                          pulvinar dapibus leo.
-                        </p> */}
+
+                        <h3>{item.span}</h3>
+                        <p>
+                          {item.details}
+                        </p>
                       </div>
                     </li>
                   );

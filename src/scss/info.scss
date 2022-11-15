@@ -31,7 +31,7 @@
   .heading {
     margin-bottom: 40px;
     h1 {
-      font-size: 4rem !important;
+      font-size: 3rem !important;
       display: inline-block;
       overflow: visible;
       color: #fff;
@@ -75,6 +75,10 @@
       grid-gap: 1rem;
       padding: 30px 0;
   
+      @include md{
+        padding: 20px;
+        grid-gap: 2rem;
+      }
       .item {
       padding: 34px 15px 15px;
         background: #14253b;
@@ -121,7 +125,7 @@
         }
         ul{
           display: grid;
-          grid-gap: 1rem;
+          grid-gap: .5rem;
           list-style: none;
           padding: 20px;
           justify-content: center;
@@ -132,7 +136,7 @@
             font-family: 'DM Sans';
             font-size: 18px;
             font-weight: 200;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             img{
               width: 20px;
               height: 20px;

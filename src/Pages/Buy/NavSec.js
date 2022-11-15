@@ -13,7 +13,7 @@ const NavSec = () => {
                         </div>
                     </div>
                     <div className="end">
-                        <button>Connect Wallet!</button>
+                        <button>Connect Wallet</button>
                     </div>
                 </div>
             </div>

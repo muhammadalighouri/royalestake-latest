@@ -25,11 +25,11 @@ header {
       max-width: 1250px;
       margin: 0 auto;
       .nav__grid {
-        display: grid;
-        grid-template-columns: 1.5fr 3.4fr 0.5fr;
-        align-items: center;
-        padding: 10px 5px;
-        grid-gap: 10px;
+    display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      padding: 10px 5px;
+      grid-gap: 10px;
         @include mobile {
           padding: 18px 0px;
         }
@@ -43,7 +43,7 @@ header {
 
           img {
             padding: 0px 0;
-            max-width: 80px;
+            max-width: 65px;
           }
         }
 

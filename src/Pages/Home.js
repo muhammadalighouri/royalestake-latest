@@ -16,9 +16,11 @@ import Holder from "../components/Holder";
 import Partners from "../components/Partners";
 import Start from "./Start";
 import Rating from "../components/Rating";
+import Background from "../components/Background";
 const Home = () => {
     return (
         <>
+            <Background />
             <div className="top__banner">
                 <Navigation />
                 <Banner />

@@ -15,12 +15,12 @@ const Footer = () => {
               <h2> Royal Stake</h2>
               <p
                 style={{
-                  fontSize: '15px',
-                  lineHeight: '1.4',
-                  letterSpacing: '-0.009em',
-                  width: '100%',
-                  fontWeight: '100',
-                  opacity: '.8'
+                  fontSize: "15px",
+                  lineHeight: "1.5",
+                  letterSpacing: ".5px",
+                  width: "100%",
+                  fontWeight: "100",
+                  marginTop: "15px",
                 }}
               >
                 Join the most user oriented Staking platform and generate a
@@ -29,30 +29,44 @@ const Footer = () => {
               </p>
             </div>
             <div className="item">
-              <h2 style={{
-                fontSize: '18px',
-                fontWeight: '600',
-                marginBottom: '15px'
-              }}> CONTACT US</h2>
-              <p
+              <h2
                 style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4',
-                  letterSpacing: '-0.009em',
-                  width: '100%',
-                  opacity: '.8'
+                  fontSize: "18px",
+                  fontWeight: "600",
+                  marginBottom: "15px",
                 }}
               >
-                Edelweiss Corporate Finance GmbH
-                <b>Support@royalstake.app</b>
+                {" "}
+                CONTACT US
+              </h2>
+              <p
+                style={{
+                  fontSize: "15px",
+                  lineHeight: "1.5",
+                  letterSpacing: "0.5px",
+                  width: "100%",
+                  opacity: "1",
+                  fontWeight: "100",
+                }}
+              >
+                15 Golden Square, London W1F 9JG, United Kingdom
+                <b
+                  style={{
+                    display: "block",
+                    fontWeight: "100",
+                  }}
+                >
+                  {" "}
+                  Email: Support@royalstake.app
+                </b>
               </p>
             </div>
             <div className="item">
               <h2
                 style={{
-                  fontSize: '18px',
-                  fontWeight: '600',
-                  marginBottom: '15px'
+                  fontSize: "18px",
+                  fontWeight: "600",
+                  marginBottom: "15px",
                 }}
               >
                 SIGN UP FOR EMAIL UPDATES
@@ -67,31 +81,30 @@ const Footer = () => {
                 />
                 <button>Subscribe</button>
               </div>
-              <p style={{ marginTop: '15px' }}>
-                Sign up with your email address to receive news and updates</p>
+              <p
+                style={{
+                  marginTop: "15px",
+                  fontWeight: "100",
+                  letterSpacing: ".5px",
+                }}
+              >
+                Sign up with your email address to receive news and updates
+              </p>
             </div>
           </div>
         </div>
         <div className="bottom__footer">
-          <p>Copyright ©2022 Royal Stake.All rights reserved.</p>
+          <p>Copyright ©2022 Royal Stake. All rights reserved.</p>
           <ul>
             <li>
-              <a href="">Twitter</a>
+              <a href="">Contact Us </a>
             </li>
             <li>
-              <a href="">Instagram</a>
+              <a href="">FAQs</a>
             </li>
             <li>
-              <a href="">Discord</a>
+              <a href="">Get Started</a>
             </li>
-            {nav.map((ite, ind) => {
-              return (
-                <li key={ind} className="list-item">
-                  <a href={ite.path}>{ite.name}</a>
-                </li>
-              );
-            })}
-
           </ul>
         </div>
       </div>

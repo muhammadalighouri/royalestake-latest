@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import "../scss/holder.scss";
 const Holder = () => {
     const [active, setActive] = useState({
-        heading: "the fe f head of my lorfinh4",
+        heading: "MetaMask Wallet ",
         description:
-            "lofYou can buy and sell 150+ cryptocurrencies with 20+ fiat currencies using bank transfers on your credit or debit card",
-        img: "https://toka.b-cdn.net/wp-content/uploads/2022/04/4rfrf-768x1000.png",
+            "To begin, make sure you have a MetaMask wallet installed on your browser, or use one of the wallets supported by Wallet Connect (we recommend Trust Wallet).Purchasing on a desktop browser will give you a smoother purchasing experience. For this we recommend Metamask. If you are purchasing on mobile, we recommend using Trust Wallet and connecting through the in built browser.",
+        img: "https://toka.b-cdn.net/wp-content/uploads/2022/04/rvgrv-768x669.png",
         link: "",
     });
     const [handleAmount, setHandleAmount] = useState();

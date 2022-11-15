@@ -103,6 +103,10 @@ export const FAQ = [
 
     ],
   },
+
+];
+
+export const FAQ2 = [
   {
     q: "How much will I earn?",
     ans: [
@@ -113,33 +117,6 @@ export const FAQ = [
     q: "Fees",
     ans: [
       "(There aren't any) It’s that simple, we don’t need fees or bogus referral schemes to make a product that works. We trust in our results to grow. Royal Stake is fair, organic and driven to achieve good things for our community.",
-    ],
-  },
-];
-
-export const FAQ2 = [
-  {
-    q: "What makes Universal Immersion unique?",
-    ans: [
-      "Universal Immersion is the only company focused on equitable blockchain adoption for the whole not-for-profit sector; to globally increase sustainability, scalability and self-sufficiency in the era of emerging blockchain technologies.",
-    ],
-  },
-  {
-    q: "How does generate its resources? ",
-    ans: [
-      'We generate our resources through our NFT developments and blockchain adoption. Our initial NFTs being released in 2022 are our "Theta Time Capsule" NFTs which are available for purchase on Opensea. The revenue raised from this collection will be invested into onboarding UI Operatives in Alpha Quadrant. Further UI developments include an ecosystem and infrastructure that generate revenue for the UI funding pool which will then be invested into social impact projects globally.',
-    ],
-  },
-  {
-    q: "  What are the four sectors of the economy? ",
-    ans: [
-      'The economy is comprised of private, public, not-for-profit and for- benefit sectors. The 4th Sector (for-benefit) is the emerging sector which is the intersection of the current sectors, a commercial framework driven by ethical decision-making and ideals, targeting critical challenges on the planet.For more information, go to "3. SECTOR OVERVIEW" of our Whitepaper.',
-    ],
-  },
-  {
-    q: "Do you have any further questions?",
-    ans: [
-      "We welcome any further inquiries and invite you to use the contact us form on our website and a UI Operative will contact you. Thank you.",
     ],
   },
 ];

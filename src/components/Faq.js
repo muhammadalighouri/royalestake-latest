@@ -37,10 +37,10 @@ const Faq = () => {
             <h1 data-aos="fade" className="aos-init aos-animate">
               Frequently Asked Questions
             </h1>
-            <p data-aos="fade" className="aos-init aos-animate">
+            {/* <p data-aos="fade" className="aos-init aos-animate">
               Discover over 200+ magical artifacts, hunt deadly beasts with
               incredible strength and unique abilities.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="container">
