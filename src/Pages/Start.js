@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/start.scss"
+import "../scss/start.scss";
 const Start = () => {
     return (
         <section className="start__now">
@@ -8,10 +8,7 @@ const Start = () => {
                     <div className="item">
                         <div className="start">
                             <h2>Let’s start your crypto staking now</h2>
-                            <p>
-                                {" "}
-                                Try our auto staking tool for free.
-                            </p>
+                            <p> Try our auto staking tool for free.</p>
                         </div>
                         <div className="end">
                             <button>Start Now</button>
